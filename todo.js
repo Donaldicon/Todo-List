@@ -88,7 +88,6 @@ function addTodo() {
       editButton.style.display = "block";
       doneButton.style.display = "block";
     }
-
     }
     
     updateField.addEventListener("click", updateTodo)
