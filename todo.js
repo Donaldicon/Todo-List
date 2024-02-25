@@ -6,7 +6,7 @@ const todosEl = document.querySelector(".todos");
 function addTodo() {
 
   if (inputFieldEl.value === ""){
-    alert("You are a fraud");
+    alert("Please enter Todo!");
   }else{
   var divinson = document.createElement("div")
   var divWrapper = document.createElement("div")
